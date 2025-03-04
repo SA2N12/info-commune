@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6"></body>
+    <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
+        <div class="mb-4">
+            <label for="dep" class="block text-gray-700 font-bold mb-2">Département :</label>
+            <select id="dep" class="block w-full bg-gray-200 border border-gray-300 rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                <option value="" checked disabled>- Département -</option>
+            </select>
+        </div>
+        <div>
+            <label for="cities" class="block text-gray-700 font-bold mb-2">Ville :</label>
+            <select id="cities" class="block w-full bg-gray-200 border border-gray-300 rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                <option value="" checked disabled>- Communes -</option>
+            </select>
+        </div>
+    </div>
+    <p id="info-city" class="mt-4 text-center"></p>
+    <script src="script.js"></script>
+</body>
+</html>

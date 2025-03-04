@@ -1,0 +1,10 @@
+récupérer api département
+
+afficher tous les départements
+
+quand département est selectionné
+    afficher communes au sein du département
+
+quand commune est selectionné
+    afficher les infos : nom, population, code postal
+    
