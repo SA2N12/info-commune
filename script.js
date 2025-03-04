@@ -22,6 +22,7 @@ async function callCities(departementCode){
     let select = document.querySelector('#cities');
     let city = document.querySelector('#city');
 
+    select.innerHTML= '';
     for (let i=0; i < responseCommune.length; i++){
         let option = document.createElement('option');
         option.value = responseCommune[i].code;
